@@ -12,7 +12,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
 function greet(time) {
-  if (time) {
+  if (parseInt(time) < 12) {
     console.log('Good Morning)
   }
 }
