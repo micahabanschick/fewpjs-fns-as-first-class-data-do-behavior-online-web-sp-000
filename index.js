@@ -11,8 +11,8 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
-function greet(string) {
-  if () {
+function greet(time) {
+  if (time) {
     console.log('Good Morning)
   }
 }
